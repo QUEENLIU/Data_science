@@ -1,11 +1,11 @@
 getwd()
 
-filename<-"getdata.zip"
-if(!file.exists(filename)){
+file<-"getdata.zip"
+if(!file.exists(file)){
   url<-'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-  download.file(url, filename)
+  download.file(url, file)
 }
-if(!file.exists('UCI HAR Dataset')){unzip(filename)}
+if(!file.exists('UCI HAR Dataset')){unzip(file)}
 setwd('./UCI HAR Dataset')
 
 activitylabels<-read.table("activity_labels.txt")
