@@ -1,94 +1,41 @@
 This file here summarise the data fields in tidy.txt
 
-Identifiers:
+
 subject - The ID of the test subject
 activity - The type of activity performed when the corresponding measurements were taken
-WALKING (value 1): subject was walking during the test
-WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
-WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
-SITTING (value 4): subject was sitting during the test
-STANDING (value 5): subject was standing during the test
-LAYING (value 6): subject was laying down during the test
+    WALKING (value 1): subject was walking during the test
+    WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+    WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+    SITTING (value 4): subject was sitting during the test
+    STANDING (value 5): subject was standing during the test
+    LAYING (value 6): subject was laying down during the test
 
 Measurements:
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
-
-
+ [3] "tBodyAccmeanX"               
+ [4] "tBodyAccmeanY"                "tBodyAccmeanZ"                "tBodyAccstdX"                
+ [7] "tBodyAccstdY"                 "tBodyAccstdZ"                 "tGravityAccmeanX"            
+[10] "tGravityAccmeanY"             "tGravityAccmeanZ"             "tGravityAccstdX"             
+[13] "tGravityAccstdY"              "tGravityAccstdZ"              "tBodyAccJerkmeanX"           
+[16] "tBodyAccJerkmeanY"            "tBodyAccJerkmeanZ"            "tBodyAccJerkstdX"            
+[19] "tBodyAccJerkstdY"             "tBodyAccJerkstdZ"             "tBodyGyromeanX"              
+[22] "tBodyGyromeanY"               "tBodyGyromeanZ"               "tBodyGyrostdX"               
+[25] "tBodyGyrostdY"                "tBodyGyrostdZ"                "tBodyGyroJerkmeanX"          
+[28] "tBodyGyroJerkmeanY"           "tBodyGyroJerkmeanZ"           "tBodyGyroJerkstdX"           
+[31] "tBodyGyroJerkstdY"            "tBodyGyroJerkstdZ"            "tBodyAccMagmean"             
+[34] "tBodyAccMagstd"               "tGravityAccMagmean"           "tGravityAccMagstd"           
+[37] "tBodyAccJerkMagmean"          "tBodyAccJerkMagstd"           "tBodyGyroMagmean"            
+[40] "tBodyGyroMagstd"              "tBodyGyroJerkMagmean"         "tBodyGyroJerkMagstd"         
+[43] "fBodyAccmeanX"                "fBodyAccmeanY"                "fBodyAccmeanZ"               
+[46] "fBodyAccstdX"                 "fBodyAccstdY"                 "fBodyAccstdZ"                
+[49] "fBodyAccmeanFreqX"            "fBodyAccmeanFreqY"            "fBodyAccmeanFreqZ"           
+[52] "fBodyAccJerkmeanX"            "fBodyAccJerkmeanY"            "fBodyAccJerkmeanZ"           
+[55] "fBodyAccJerkstdX"             "fBodyAccJerkstdY"             "fBodyAccJerkstdZ"            
+[58] "fBodyAccJerkmeanFreqX"        "fBodyAccJerkmeanFreqY"        "fBodyAccJerkmeanFreqZ"       
+[61] "fBodyGyromeanX"               "fBodyGyromeanY"               "fBodyGyromeanZ"              
+[64] "fBodyGyrostdX"                "fBodyGyrostdY"                "fBodyGyrostdZ"               
+[67] "fBodyGyromeanFreqX"           "fBodyGyromeanFreqY"           "fBodyGyromeanFreqZ"          
+[70] "fBodyAccMagmean"              "fBodyAccMagstd"               "fBodyAccMagmeanFreq"         
+[73] "fBodyBodyAccJerkMagmean"      "fBodyBodyAccJerkMagstd"       "fBodyBodyAccJerkMagmeanFreq" 
+[76] "fBodyBodyGyroMagmean"         "fBodyBodyGyroMagstd"          "fBodyBodyGyroMagmeanFreq"    
+[79] "fBodyBodyGyroJerkMagmean"     "fBodyBodyGyroJerkMagstd"      "fBodyBodyGyroJerkMagmeanFreq"
+> 
